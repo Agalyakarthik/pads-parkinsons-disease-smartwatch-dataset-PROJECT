@@ -1,0 +1,7 @@
+﻿Local Here(
+	table1 = Open(
+		"/C:/Users/akals/Numpy Ninja/Data sets form physionet/pads-parkinsons-disease-smartwatch-dataset-1.0.0/pads-parkinsons-disease-smartwatch-dataset-1.0.0/patients_details.jmp",
+		invisible
+	);
+	table1 << Distribution( Nominal Distribution( Column( :Patient's group ) ) );
+)
